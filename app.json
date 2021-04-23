@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "IntelligentCanteen",
+    "slug": "IntelligentCanteen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/mainIcon.png",
+    "splash": {
+      "image": "./assets/newSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4267B2"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.fahadamin.intelligentcanteen",
+      "versionCode": 1,
+      "config":{
+        "googleMaps":{
+          "apiKey":"AIzaSyD-2F8_VdU-Rd63FoivO59Grwiu2QGgMjQ"
+        }
+      }
+    },
+    
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
